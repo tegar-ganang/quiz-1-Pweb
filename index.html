@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Pemerintah Kabupaten Solok <br> Rumah Sakit Umum Daerah Arosuka</title>
+</head>
+
+<body id="body">
+    <div class="main-content">
+        <form class="form-basic" action="login.html">
+            <div class="form-title-row">
+                <img src="/arosuka.jpg" style="max-width: 120px">
+                <br>
+                <h1>Pemerintah Kabupaten Solok <br> Rumah Sakit Umum Daerah Arosuka</h1>
+                <h2>Formulir Pendaftaran Pasien Baru</h2>
+                <h3>Perhatian: Harap Mengisi Formulir ini dengan Lengkap dan Jelas</h3>
+            </div>
+
+            </br>
+    
+            <div class="form-row">
+                <label style="margin: auto;">
+                <span>1. Identitas Pasien</span>
+                </label>
+            </div>
+
+            <div class="form-row" id="name">
+                <label style="margin: auto;">
+                <span>Nama Pasien</span>
+                <input type="text" name="name">
+                </label>
+            </div>
+      
+            <div class="form-row" id="birthplace">
+                <label>
+                <span>Tempat Lahir</span>
+                <input type="text" name="birthplace">
+                </label>
+            </div>
+            <div class="form-row" id="birthdate">
+            <label>
+                <span>Tanggal Lahir</span>
+                <input type="date" name="birthdate" required>
+            </label>
+            </div>
+            <div class="form-row" id="kelamin">
+                <label><span>Jenis Kelamin</span></label>
+                <div class="form-radio-buttons" style="text-align: left;" required>
+                <div>
+                    <label>
+                    <input type="radio" value="Laki-Laki" name="radio">
+                    <span>Laki-laki</span>
+                </label>
+                </div>
+        
+                <div>
+                    <label>
+                    <input type="radio" value="Perempuan" name="radio">
+                    <span>Perempuan</span>
+                    </label>
+                </div>
+        
+                </div>
+            </div>
+            
+            <div class="form-row" id="address">
+                <label>
+                <span>Alamat</span>
+                <input type="text" name="address">
+                </label>
+            </div>
+
+            <div class="form-row" id="rt">
+                <label>
+                <span>RT</span>
+                <input type="number" name="rt">
+                </label>
+            </div>
+
+            <div class="form-row" id="rw">
+                <label>
+                <span>RW</span>
+                <input type="number" name="rw">
+                </label>
+            </div>
+
+            <div class="form-row" id="province">
+                <label>
+                <span>Province</span>
+                <input type="text" name="province">
+                </label>
+            </div>
+
+            <div class="form-row" id="kecamatan">
+                <label>
+                <span>Kecamatan</span>
+                <input type="text" name="kecamatan">
+                </label>
+            </div>
+
+            <div class="form-row" id="desa">
+                <label>
+                <span>Kelurahan/Desa</span>
+                <input type="text" name="desa">
+                </label>
+            </div>
+
+            <div class="form-row" id="phone">
+                <label>
+                <span>No. Telp/Hp</span>
+                <input type="tel" name="phone">
+                </label>
+            </div>
+
+            <div class="form-row" id="kodepos">
+                <label>
+                <span>Kodepos</span>
+                <input type="text" name="postal">
+                </label>
+            </div>
+
+            <div class="form-row" id="agama">
+                <label><span>Agama</span></label>
+                <div class="form-radio-buttons" style="text-align: left;" required>
+                <div>
+                    <label>
+                    <input type="radio" value="Islam" name="radio">
+                    <span>Islam</span>
+                </label>
+                </div>
+        
+                <div>
+                    <label>
+                    <input type="radio" value="Kristen" name="radio">
+                    <span>Kristen</span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                    <input type="radio" value="Katolik" name="radio">
+                    <span>Katolik</span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                    <input type="radio" value="Buddha" name="radio">
+                    <span>Buddha</span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                    <input type="radio" value="Hindu" name="radio">
+                    <span>Hindu</span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                    <input type="radio" value="Konghuchu" name="radio">
+                    <span>Konghuchu</span>
+                    </label>
+                </div>
+
+                </div>
+            </div>
+
+            <div class="form-row" id="study">
+                <label>
+                <span>Pendidikan Terakhir</span>
+                <input type="text" name="study">
+                </label>
+            </div>
+
+            <div class="form-row" id="job">
+                <label>
+                <span>Pekerjaan</span>
+                <input type="text" name="job">
+                </label>
+            </div>
+
+            <br>
+
+            <div class="form-row">
+                <label style="margin: auto;">
+                <span>2. Penanggung Jawab Pasien</span>
+                </label>
+            </div>
+
+            <div class="form-row" id="relasi">
+                <label>
+                <span>Hubungan dengan Pasien</span>
+                <input type="text" name="relasi">
+                </label>
+            </div>
+
+            <div class="form-row" id="pjname">
+                <label>
+                <span>Nama Penanggung Jawab</span>
+                <input type="text" name="pjname">
+                </label>
+            </div>
+
+            <div class="form-row" id="pjstudy">
+                <label>
+                <span>Pendidikan Penanggung Jawab</span>
+                <input type="text" name="pjstudy">
+                </label>
+            </div>
+
+            <div class="form-row" id="pjjob">
+                <label>
+                <span>Pekerjaan Penanggung Jawab</span>
+                <input type="text" name="pjjob">
+                </label>
+            </div>
+
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="row" style="column-gap: 180px;">
+                <div class="column">
+                    <div class="row" style="display: block;">
+                        <label for="myfile" style="display: block;">Tanda Tangan</label>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <span>(...........................)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" onClick="create_form()">Daftar</button>
+            </div>
+        
+            </form>
+        
+        </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
